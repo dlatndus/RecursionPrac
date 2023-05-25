@@ -10,6 +10,9 @@ namespace RecursionPrac
     {
         static void Main(string[] args)
         {
+
+            Fibonacci fibo = new Fibonacci();
+            Console.WriteLine(fibo.Get(50));
         }
     }
 }
